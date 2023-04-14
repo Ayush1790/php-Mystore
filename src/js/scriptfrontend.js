@@ -120,6 +120,7 @@ $(document).on("click", "#checkOut", function () {
         if(value){
         alert(value);
         window.location = 'index.php';}else{
+            
             alert("Quantity is not availbale")
         }
     })
